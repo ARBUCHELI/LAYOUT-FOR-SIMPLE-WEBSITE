@@ -21,9 +21,7 @@ img{
     max-width: 100%;
 }
 nav {
-    flex: 1; /* This statement means flex-grow : 1;    ➜ The div will grow in same proportion as the window-size       
-                                     flex-shrink : 1;  ➜ The div will shrink in same proportion as the window-size 
-                                     flex-basis : 0;   ➜ The div does not have a starting value as such and will take up screen as per the screen size available for e.g:- if 3 divs are in the wrapper then each div will take 33%. background-color: #6b5b95; /*Color of the nav with the list of elements*/
+    flex: 1; /*This statement means flex-grow : 1;    ➜ The div will grow in same proportion as the window-size,  flex-shrink : 1;  ➜ The div will shrink in same proportion as the window-size,  flex-basis : 0;   ➜ The div does not have a starting value as such and will take up screen as per the screen size available for e.g:- if 3 divs are in the wrapper then each div will take 33%. background-color: #6b5b95; /*Color of the nav with the list of elements.*/
     color: white;
 }
 nav ul {
