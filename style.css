@@ -21,12 +21,12 @@ img{
     max-width: 100%;
 }
 nav {
-    flex: 1; /*This statement means flex-grow : 1;    ➜ The div will grow in same proportion as the window-size,  flex-shrink : 1;  ➜ The div will shrink in same proportion as the window-size,  flex-basis : 0;   ➜ The div does not have a starting value as such and will take up screen as per the screen size available for e.g:- if 3 divs are in the wrapper then each div will take 33%.*/
+    flex: 1; /*For controlling flexing.*/
     background-color: #6b5b95; /*Color of the nav with the list of elements.*/
     color: white;
 }
 nav ul {
-    list-stype-type: none; /*Deletes the bullent points or numbers.*/
+    list-style-type: none; /*Deletes the bullet points or numbers.*/
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ nav a {
 }
 nav a:hover {
     color: red; /*The text of the items of the menu list becomes red when the mouse hover over them.*/
-    text-decoration: underline;
+    text-decoration: underline; /*The text of the items of the menu list becomes underlined when the mouse hovers over them.*/
 }
 .red {
     color: red;
