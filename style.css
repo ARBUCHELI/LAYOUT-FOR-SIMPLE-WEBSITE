@@ -1,0 +1,43 @@
+#header,
+#footer {
+    background-color: #feb236;
+    color: #6b5b95;
+    font-size: 1.9em;
+    text-align: center;
+    height: 15vh;
+}
+#main {
+    min-height: 70vh;
+    display: flex;
+}
+article {
+    flex: 4;
+}
+aside {
+    flex: 2;
+    background-color: #d64161;
+}
+img{
+    max-width: 100%;
+}
+nav {
+    flex: 1;
+    background-color: #6b5b95;
+    color: white;
+}
+nav ul {
+    list-stype-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.red {
+    color: red;
+}
