@@ -7,4 +7,4 @@ Website Layout Project focused in graphic design, which shows the proper use of 
 
 ![Layout for Simple Website](https://github.com/anferebu/LAYOUT-FOR-SIMPLE-WEBSITE/blob/master/Layout.jpg)
 
-Author: Andrés R. Bucheli
+# Author: Andrés R. Bucheli
